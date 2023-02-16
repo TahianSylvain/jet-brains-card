@@ -4,6 +4,8 @@ import { JbCard } from './JbCard'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <JbCard></JbCard>
+    <JbCard header='consectetur adipisicing elit. Ratione'>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nulla expedita non recusandae? Totam quisquam, sunt nisi magni ipsam corrupti odio. Laboriosam, ipsum eius maiores quam accusamus molestias reiciendis libero!
+    </JbCard>
   </React.StrictMode>,
 )
