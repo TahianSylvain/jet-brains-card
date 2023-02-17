@@ -1,0 +1,26 @@
+a {
+    color: black;
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.jbcard {
+    max-width: 350px;
+    padding: 2em 1em;
+    border-radius: 8px;
+    background: radial-gradient(150px 150px at 60px 60px, rgb(221, 7, 7) 0%, rgb(0, 0, 0) 100%);
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.jbcard > .jbcard__header {
+    margin-bottom: 1em;
+}
+
+.jbcard > .jbcard__header > a {
+    color: white;
+}
